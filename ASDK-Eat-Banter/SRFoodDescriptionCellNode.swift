@@ -30,9 +30,12 @@ class SRFoodDescriptionCellNode: ASCellNode {
     
     private func configureChildren() {
         let vendorFont = UIFont(name: "AvenirNext-Regular", size: 17)!,
-            descriptionFont = UIFont(name: "AvenirNext-Regular", size: 14)!
-        self.vendorLabel.attributedText = self.attributedString(vendorFont, string: "at \(self.food.vendor)")
-        self.descriptionLabel.attributedText = self.attributedString(descriptionFont, string: self.food.description)
+            descriptionFont = UIFont(name: "AvenirNext-Regular", size: 14)!,
+            vendorStr = "at \(self.food.vendor)"
+        
+        
+        self.vendorLabel.attributedText = Utility.attributedString(vendorStr, font: vendorFont, color: UIColor.blackColor())
+        self.descriptionLabel.attributedText = Utility.attributedString(self.food.description, font: descriptionFont, color: UIColor.blackColor())
     }
     
     private func attributedString(font: UIFont, string: String) -> NSAttributedString {

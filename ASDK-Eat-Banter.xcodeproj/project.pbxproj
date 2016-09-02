@@ -16,6 +16,8 @@
 		34E95AE71D79C0E100F6A99C /* UINavigationBar+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E95AE61D79C0E100F6A99C /* UINavigationBar+Custom.swift */; };
 		34E95AE91D79C32800F6A99C /* FoodModel+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E95AE81D79C32800F6A99C /* FoodModel+JSON.swift */; };
 		34E95AEC1D79C4FF00F6A99C /* SRFoodDescriptionCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E95AEB1D79C4FF00F6A99C /* SRFoodDescriptionCellNode.swift */; };
+		34E95AEE1D79CB4700F6A99C /* SRFoodCaloryCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E95AED1D79CB4700F6A99C /* SRFoodCaloryCellNode.swift */; };
+		34E95AF11D79CC8C00F6A99C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E95AF01D79CC8C00F6A99C /* Utility.swift */; };
 		354DB83BF523DE3AF03EF630 /* Pods_ASDK_Eat_Banter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E482664B835E9BF6095410D /* Pods_ASDK_Eat_Banter.framework */; };
 		4ACC742131FDEE9280C37D8E /* Pods_ASDK_Eat_BanterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6EACA436274908B096C7B1 /* Pods_ASDK_Eat_BanterTests.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		34E95AE61D79C0E100F6A99C /* UINavigationBar+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Custom.swift"; sourceTree = "<group>"; };
 		34E95AE81D79C32800F6A99C /* FoodModel+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FoodModel+JSON.swift"; sourceTree = "<group>"; };
 		34E95AEB1D79C4FF00F6A99C /* SRFoodDescriptionCellNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRFoodDescriptionCellNode.swift; sourceTree = "<group>"; };
+		34E95AED1D79CB4700F6A99C /* SRFoodCaloryCellNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRFoodCaloryCellNode.swift; sourceTree = "<group>"; };
+		34E95AF01D79CC8C00F6A99C /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		3E482664B835E9BF6095410D /* Pods_ASDK_Eat_Banter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDK_Eat_Banter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE068035F624DC0E43AC3C7 /* Pods-ASDK-Eat-Banter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-Eat-Banter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-Eat-Banter/Pods-ASDK-Eat-Banter.debug.xcconfig"; sourceTree = "<group>"; };
 		4D6EACA436274908B096C7B1 /* Pods_ASDK_Eat_BanterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDK_Eat_BanterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +99,7 @@
 		34E95ABE1D79B57200F6A99C /* ASDK-Eat-Banter */ = {
 			isa = PBXGroup;
 			children = (
+				34E95AEF1D79CC8000F6A99C /* Utility */,
 				34E95AEA1D79C4D200F6A99C /* Cells */,
 				34E95AE51D79C0CD00F6A99C /* Extensions */,
 				34E95AE01D79B86100F6A99C /* Controller */,
@@ -145,8 +150,17 @@
 			isa = PBXGroup;
 			children = (
 				34E95AEB1D79C4FF00F6A99C /* SRFoodDescriptionCellNode.swift */,
+				34E95AED1D79CB4700F6A99C /* SRFoodCaloryCellNode.swift */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		34E95AEF1D79CC8000F6A99C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				34E95AF01D79CC8C00F6A99C /* Utility.swift */,
+			);
+			name = Utility;
 			sourceTree = "<group>";
 		};
 		67FAF18051679807AFA91881 /* Pods */ = {
@@ -372,6 +386,8 @@
 				34E95AE21D79BA1C00F6A99C /* FoodModel.swift in Sources */,
 				34E95AE91D79C32800F6A99C /* FoodModel+JSON.swift in Sources */,
 				34E95AE41D79BC8300F6A99C /* SRFoodViewController.swift in Sources */,
+				34E95AF11D79CC8C00F6A99C /* Utility.swift in Sources */,
+				34E95AEE1D79CB4700F6A99C /* SRFoodCaloryCellNode.swift in Sources */,
 				34E95AC01D79B57200F6A99C /* AppDelegate.swift in Sources */,
 				34E95AEC1D79C4FF00F6A99C /* SRFoodDescriptionCellNode.swift in Sources */,
 			);

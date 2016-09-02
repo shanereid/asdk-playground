@@ -36,7 +36,14 @@ class SRFoodViewController: ASViewController, ASTableDelegate, ASTableDataSource
     
     func tableView(tableView: ASTableView, nodeBlockForRowAtIndexPath indexPath: NSIndexPath) -> ASCellNodeBlock {
         let cellNodeBlock = { () -> ASCellNode in
-            return SRFoodDescriptionCellNode(food: self.food)
+            switch indexPath.row {
+            case 0:
+                return SRFoodDescriptionCellNode(food: self.food)
+            case 1:
+                return SRFoodCaloryCellNode(food: self.food)
+            default:
+                return ASCellNode()
+            }
         }
         
         return cellNodeBlock
@@ -47,9 +54,12 @@ class SRFoodViewController: ASViewController, ASTableDelegate, ASTableDataSource
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 2
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+    }
     
     
     required init?(coder aDecoder: NSCoder) {
