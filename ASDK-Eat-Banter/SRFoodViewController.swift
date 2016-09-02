@@ -26,6 +26,8 @@ class SRFoodViewController: ASViewController, ASTableDelegate, ASTableDataSource
         
         self.tableNode.delegate = self
         self.tableNode.dataSource = self
+        
+        
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -36,11 +38,13 @@ class SRFoodViewController: ASViewController, ASTableDelegate, ASTableDataSource
     
     func tableView(tableView: ASTableView, nodeBlockForRowAtIndexPath indexPath: NSIndexPath) -> ASCellNodeBlock {
         let cellNodeBlock = { () -> ASCellNode in
-            switch indexPath.row {
-            case 0:
+            switch (indexPath.section, indexPath.row) {
+            case (0, 0):
                 return SRFoodDescriptionCellNode(food: self.food)
-            case 1:
+            case (0, 1):
                 return SRFoodCaloryCellNode(food: self.food)
+            case (1, 0):
+                return SRFoodFancyCellNode(food: self.food)
             default:
                 return ASCellNode()
             }
@@ -50,11 +54,15 @@ class SRFoodViewController: ASViewController, ASTableDelegate, ASTableDataSource
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
+        return 2
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        if section == 0 {
+            return 2
+        } else {
+            return 1
+        }
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {

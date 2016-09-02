@@ -49,8 +49,6 @@ class SRFoodCaloryCellNode: ASCellNode {
             spacer = ASLayoutSpec()
         spacer.flexGrow = true // This makes it a spacer
         
-        print(constrainedSize)
-        
         let horizStackLayout = ASStackLayoutSpec(
                 direction: .Horizontal,
                 spacing: 0,
