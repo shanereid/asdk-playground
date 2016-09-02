@@ -17,8 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
+        let exampleFood = Food(
+            title: "Lasagna",
+            imageURL: NSURL(string: "https://static.grabble.com/misc/lasagna.jpg")!, // Again, don't force unwrap. I'm just being lazy
+            vendor: "Big Timmy's",
+            description: "This succulent lasagna is ready to be consumed by anyone brave enough to step up to the plate. So juicy. So tender.",
+            calories: 600
+        )
+        
         let window = UIWindow(frame: UIScreen.mainScreen().bounds),
-            rootViewController = SRFoodViewController(food: Food()),
+            rootViewController = SRFoodViewController(food: exampleFood),
             navigationController = UINavigationController(rootViewController: rootViewController)
         
         window.rootViewController = navigationController

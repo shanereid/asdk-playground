@@ -9,5 +9,9 @@
 import Foundation
 
 struct Food {
-    
+    let title: String
+    let imageURL: NSURL
+    let vendor: String
+    let description: String
+    let calories: Int
 }

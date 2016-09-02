@@ -9,17 +9,47 @@
 import UIKit
 import AsyncDisplayKit
 
-class SRFoodViewController: ASViewController {
+class SRFoodViewController: ASViewController, ASTableDelegate, ASTableDataSource {
+    let food: Food
     var tableNode: ASTableNode {
         return self.node as! ASTableNode
     }
     
     init(food: Food) {
+        self.food = food
+        
         let tableNode = ASTableNode(style: .Grouped)
-        tableNode.backgroundColor = UIColor.blueColor()
         
         super.init(node: tableNode)
+        
+        self.navigationItem.title = "I am a food item"
+        
+        self.tableNode.delegate = self
+        self.tableNode.dataSource = self
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.navigationController?.navigationBar.setBackgroundColour(nil)
+    }
+    
+    func tableView(tableView: ASTableView, nodeBlockForRowAtIndexPath indexPath: NSIndexPath) -> ASCellNodeBlock {
+        let cellNodeBlock = { () -> ASCellNode in
+            return SRFoodDescriptionCellNode(food: self.food)
+        }
+        
+        return cellNodeBlock
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
     
     
     required init?(coder aDecoder: NSCoder) {
