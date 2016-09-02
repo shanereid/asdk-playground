@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34E95AC01D79B57200F6A99C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E95ABF1D79B57200F6A99C /* AppDelegate.swift */; };
+		34E95AC71D79B57200F6A99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E95AC61D79B57200F6A99C /* Assets.xcassets */; };
+		34E95ACA1D79B57200F6A99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E95AC81D79B57200F6A99C /* LaunchScreen.storyboard */; };
+		34E95AD51D79B57200F6A99C /* ASDK_Eat_BanterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E95AD41D79B57200F6A99C /* ASDK_Eat_BanterTests.swift */; };
+		34E95AE21D79BA1C00F6A99C /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E95AE11D79BA1C00F6A99C /* FoodModel.swift */; };
+		34E95AE41D79BC8300F6A99C /* SRFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E95AE31D79BC8300F6A99C /* SRFoodViewController.swift */; };
+		354DB83BF523DE3AF03EF630 /* Pods_ASDK_Eat_Banter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E482664B835E9BF6095410D /* Pods_ASDK_Eat_Banter.framework */; };
+		4ACC742131FDEE9280C37D8E /* Pods_ASDK_Eat_BanterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6EACA436274908B096C7B1 /* Pods_ASDK_Eat_BanterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34E95AD11D79B57200F6A99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34E95AB41D79B57200F6A99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34E95ABB1D79B57200F6A99C;
+			remoteInfo = "ASDK-Eat-Banter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0794459960C33CD1CBD793EA /* Pods-ASDK-Eat-BanterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-Eat-BanterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-Eat-BanterTests/Pods-ASDK-Eat-BanterTests.release.xcconfig"; sourceTree = "<group>"; };
+		28D4952E4E5FF39B77CAA548 /* Pods-ASDK-Eat-Banter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-Eat-Banter.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-Eat-Banter/Pods-ASDK-Eat-Banter.release.xcconfig"; sourceTree = "<group>"; };
+		34E95ABC1D79B57200F6A99C /* ASDK-Eat-Banter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASDK-Eat-Banter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E95ABF1D79B57200F6A99C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34E95AC61D79B57200F6A99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34E95AC91D79B57200F6A99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34E95ACB1D79B57200F6A99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E95AD01D79B57200F6A99C /* ASDK-Eat-BanterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASDK-Eat-BanterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E95AD41D79B57200F6A99C /* ASDK_Eat_BanterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASDK_Eat_BanterTests.swift; sourceTree = "<group>"; };
+		34E95AD61D79B57200F6A99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E95AE11D79BA1C00F6A99C /* FoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		34E95AE31D79BC8300F6A99C /* SRFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRFoodViewController.swift; sourceTree = "<group>"; };
+		3E482664B835E9BF6095410D /* Pods_ASDK_Eat_Banter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDK_Eat_Banter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE068035F624DC0E43AC3C7 /* Pods-ASDK-Eat-Banter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-Eat-Banter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-Eat-Banter/Pods-ASDK-Eat-Banter.debug.xcconfig"; sourceTree = "<group>"; };
+		4D6EACA436274908B096C7B1 /* Pods_ASDK_Eat_BanterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDK_Eat_BanterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C165F6AD67676840C694D8F3 /* Pods-ASDK-Eat-BanterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-Eat-BanterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-Eat-BanterTests/Pods-ASDK-Eat-BanterTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E95AB91D79B57200F6A99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354DB83BF523DE3AF03EF630 /* Pods_ASDK_Eat_Banter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E95ACD1D79B57200F6A99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACC742131FDEE9280C37D8E /* Pods_ASDK_Eat_BanterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E95AB31D79B57200F6A99C = {
+			isa = PBXGroup;
+			children = (
+				34E95ABE1D79B57200F6A99C /* ASDK-Eat-Banter */,
+				34E95AD31D79B57200F6A99C /* ASDK-Eat-BanterTests */,
+				34E95ABD1D79B57200F6A99C /* Products */,
+				67FAF18051679807AFA91881 /* Pods */,
+				EC8D1B2006FD5EA60DDE6D42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34E95ABD1D79B57200F6A99C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34E95ABC1D79B57200F6A99C /* ASDK-Eat-Banter.app */,
+				34E95AD01D79B57200F6A99C /* ASDK-Eat-BanterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E95ABE1D79B57200F6A99C /* ASDK-Eat-Banter */ = {
+			isa = PBXGroup;
+			children = (
+				34E95AE01D79B86100F6A99C /* Controller */,
+				34E95ADF1D79B85600F6A99C /* Model */,
+				34E95ABF1D79B57200F6A99C /* AppDelegate.swift */,
+				34E95AC61D79B57200F6A99C /* Assets.xcassets */,
+				34E95AC81D79B57200F6A99C /* LaunchScreen.storyboard */,
+				34E95ACB1D79B57200F6A99C /* Info.plist */,
+			);
+			path = "ASDK-Eat-Banter";
+			sourceTree = "<group>";
+		};
+		34E95AD31D79B57200F6A99C /* ASDK-Eat-BanterTests */ = {
+			isa = PBXGroup;
+			children = (
+				34E95AD41D79B57200F6A99C /* ASDK_Eat_BanterTests.swift */,
+				34E95AD61D79B57200F6A99C /* Info.plist */,
+			);
+			path = "ASDK-Eat-BanterTests";
+			sourceTree = "<group>";
+		};
+		34E95ADF1D79B85600F6A99C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34E95AE11D79BA1C00F6A99C /* FoodModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		34E95AE01D79B86100F6A99C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34E95AE31D79BC8300F6A99C /* SRFoodViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		67FAF18051679807AFA91881 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BE068035F624DC0E43AC3C7 /* Pods-ASDK-Eat-Banter.debug.xcconfig */,
+				28D4952E4E5FF39B77CAA548 /* Pods-ASDK-Eat-Banter.release.xcconfig */,
+				C165F6AD67676840C694D8F3 /* Pods-ASDK-Eat-BanterTests.debug.xcconfig */,
+				0794459960C33CD1CBD793EA /* Pods-ASDK-Eat-BanterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC8D1B2006FD5EA60DDE6D42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E482664B835E9BF6095410D /* Pods_ASDK_Eat_Banter.framework */,
+				4D6EACA436274908B096C7B1 /* Pods_ASDK_Eat_BanterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34E95ABB1D79B57200F6A99C /* ASDK-Eat-Banter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E95AD91D79B57200F6A99C /* Build configuration list for PBXNativeTarget "ASDK-Eat-Banter" */;
+			buildPhases = (
+				429BA461E00B7D84F0D1BB65 /* [CP] Check Pods Manifest.lock */,
+				34E95AB81D79B57200F6A99C /* Sources */,
+				34E95AB91D79B57200F6A99C /* Frameworks */,
+				34E95ABA1D79B57200F6A99C /* Resources */,
+				757742FA9832B46C85F373DF /* [CP] Embed Pods Frameworks */,
+				3498B2C3BF5737C30FE28808 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASDK-Eat-Banter";
+			productName = "ASDK-Eat-Banter";
+			productReference = 34E95ABC1D79B57200F6A99C /* ASDK-Eat-Banter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34E95ACF1D79B57200F6A99C /* ASDK-Eat-BanterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E95ADC1D79B57200F6A99C /* Build configuration list for PBXNativeTarget "ASDK-Eat-BanterTests" */;
+			buildPhases = (
+				58F648FA8D648CED5E2FC6D5 /* [CP] Check Pods Manifest.lock */,
+				34E95ACC1D79B57200F6A99C /* Sources */,
+				34E95ACD1D79B57200F6A99C /* Frameworks */,
+				34E95ACE1D79B57200F6A99C /* Resources */,
+				5B34C26E9DF2EDE6F8E61C3D /* [CP] Embed Pods Frameworks */,
+				CC62E619D01260E764B3432F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34E95AD21D79B57200F6A99C /* PBXTargetDependency */,
+			);
+			name = "ASDK-Eat-BanterTests";
+			productName = "ASDK-Eat-BanterTests";
+			productReference = 34E95AD01D79B57200F6A99C /* ASDK-Eat-BanterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34E95AB41D79B57200F6A99C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shane Reid";
+				TargetAttributes = {
+					34E95ABB1D79B57200F6A99C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					34E95ACF1D79B57200F6A99C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 34E95ABB1D79B57200F6A99C;
+					};
+				};
+			};
+			buildConfigurationList = 34E95AB71D79B57200F6A99C /* Build configuration list for PBXProject "ASDK-Eat-Banter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34E95AB31D79B57200F6A99C;
+			productRefGroup = 34E95ABD1D79B57200F6A99C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34E95ABB1D79B57200F6A99C /* ASDK-Eat-Banter */,
+				34E95ACF1D79B57200F6A99C /* ASDK-Eat-BanterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34E95ABA1D79B57200F6A99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E95ACA1D79B57200F6A99C /* LaunchScreen.storyboard in Resources */,
+				34E95AC71D79B57200F6A99C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E95ACE1D79B57200F6A99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3498B2C3BF5737C30FE28808 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDK-Eat-Banter/Pods-ASDK-Eat-Banter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		429BA461E00B7D84F0D1BB65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58F648FA8D648CED5E2FC6D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B34C26E9DF2EDE6F8E61C3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDK-Eat-BanterTests/Pods-ASDK-Eat-BanterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		757742FA9832B46C85F373DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDK-Eat-Banter/Pods-ASDK-Eat-Banter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC62E619D01260E764B3432F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDK-Eat-BanterTests/Pods-ASDK-Eat-BanterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E95AB81D79B57200F6A99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E95AE21D79BA1C00F6A99C /* FoodModel.swift in Sources */,
+				34E95AE41D79BC8300F6A99C /* SRFoodViewController.swift in Sources */,
+				34E95AC01D79B57200F6A99C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E95ACC1D79B57200F6A99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E95AD51D79B57200F6A99C /* ASDK_Eat_BanterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34E95AD21D79B57200F6A99C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34E95ABB1D79B57200F6A99C /* ASDK-Eat-Banter */;
+			targetProxy = 34E95AD11D79B57200F6A99C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34E95AC81D79B57200F6A99C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34E95AC91D79B57200F6A99C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34E95AD71D79B57200F6A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34E95AD81D79B57200F6A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34E95ADA1D79B57200F6A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE068035F624DC0E43AC3C7 /* Pods-ASDK-Eat-Banter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ASDK-Eat-Banter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playground.ASDK-Eat-Banter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34E95ADB1D79B57200F6A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D4952E4E5FF39B77CAA548 /* Pods-ASDK-Eat-Banter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ASDK-Eat-Banter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playground.ASDK-Eat-Banter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34E95ADD1D79B57200F6A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C165F6AD67676840C694D8F3 /* Pods-ASDK-Eat-BanterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ASDK-Eat-BanterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playground.ASDK-Eat-BanterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASDK-Eat-Banter.app/ASDK-Eat-Banter";
+			};
+			name = Debug;
+		};
+		34E95ADE1D79B57200F6A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0794459960C33CD1CBD793EA /* Pods-ASDK-Eat-BanterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ASDK-Eat-BanterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.playground.ASDK-Eat-BanterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASDK-Eat-Banter.app/ASDK-Eat-Banter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34E95AB71D79B57200F6A99C /* Build configuration list for PBXProject "ASDK-Eat-Banter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E95AD71D79B57200F6A99C /* Debug */,
+				34E95AD81D79B57200F6A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E95AD91D79B57200F6A99C /* Build configuration list for PBXNativeTarget "ASDK-Eat-Banter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E95ADA1D79B57200F6A99C /* Debug */,
+				34E95ADB1D79B57200F6A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E95ADC1D79B57200F6A99C /* Build configuration list for PBXNativeTarget "ASDK-Eat-BanterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E95ADD1D79B57200F6A99C /* Debug */,
+				34E95ADE1D79B57200F6A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34E95AB41D79B57200F6A99C /* Project object */;
+}
